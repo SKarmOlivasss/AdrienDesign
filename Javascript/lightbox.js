@@ -12,7 +12,7 @@ import {enableBodyScroll, disableBodyScroll} from './body-scroll-body.js';
 
         
         static init () {
-            const links = Array.from(document.querySelectorAll('a[href$=".png"], a[href$=".jpg"], a[href$=".jpeg"]'))
+            const links = Array.from(document.querySelectorAll('a[href$=".png"], a[href$=".jpg"], a[href$=".jpeg"], a[href$=".gif"]'))
             const gallery = links.map(link => link.getAttribute('href'));
             links.forEach(link => link.addEventListener('click', e => {
                 e.preventDefault();
@@ -130,6 +130,7 @@ import {enableBodyScroll, disableBodyScroll} from './body-scroll-body.js';
     }
 
     Lightbox.init();
+
 
 
     /**
