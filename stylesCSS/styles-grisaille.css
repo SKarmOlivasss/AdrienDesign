@@ -102,7 +102,7 @@ header nav ul li a:hover
 #p1
 {
     width: auto;
-    height: auto;
+    height: 500px;
     background:rgb(255, 255, 255, 0.7);
     padding: 80px 0 0 0;
 }
@@ -132,10 +132,51 @@ header nav ul li a:hover
 }
 
 /*      P2      */
-
+#p2
+{
+    width: auto;
+    height: 400px;
+    background:rgb(255, 255, 255, 0.7);
+    padding: 20px 0 0 0; 
+}
+#p2 h2{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+#p2 p{
+    text-align: center;
+    padding-left: 100px;
+    width: auto;
+    padding-right: 100px;
+}
 
 /*      P3      */
-
+#p3
+{
+    width: auto;
+    height: 400px;
+    background:rgb(255, 255, 255, 0.7);
+    padding: 40px;px 0 0 0;
+}
+#p3 h2{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+#p3 p{
+    text-align: center;
+    padding-left: 100px;
+    width: auto;
+    padding-right: 100px;
+}
+#adgif{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 140px;
+    top: 1197px;    
+}
 
 /*      SOCIALS      */
 #logo

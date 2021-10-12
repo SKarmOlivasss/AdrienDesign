@@ -131,8 +131,6 @@ import {enableBodyScroll, disableBodyScroll} from './body-scroll-body.js';
 
     Lightbox.init();
 
-
-
     /**
      * <div class="lightbox">
             <button class="lightbox__close"></button>
