@@ -125,11 +125,19 @@ header nav ul li a:hover
     width: auto;
     padding-right: 100px;
 }
+
 .grid {
     padding: 16px 150px 0 150px;
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(3, minmax(200px, 0.25fr));
+    grid-gap: 16px;
+}
+#p3 .grid {
+    padding: 16px 150px 0 150px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, minmax(200px, 1fr));
     grid-gap: 16px;
 }
 #p1 img {
@@ -167,6 +175,10 @@ header nav ul li a:hover
     margin-right: 100px;
     margin-left: 100px;
 }
+#p2 img{
+    height: 227.75px;
+    width: 227.75px;
+}
 
 
 
@@ -186,16 +198,17 @@ header nav ul li a:hover
 #p3 p{
     text-align: center;
     padding-left: 100px;
+    padding-bottom: 20px;
     width: auto;
     padding-right: 100px;
+
 }
-#adgif{
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    right: 140px;
-    top: 1197px;    
+#p3 img{
+    height: 227.75px;
+    width: 227.75px;
 }
+
+
 
 /*      SOCIALS      */
 #logo
